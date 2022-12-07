@@ -15,13 +15,13 @@ from PIL import Image
 
 st.set_page_config(page_title='Youtube Comments Filter')
 
-image= Image.open('/Users/harshavarthanan/Downloads/Excel_Webapp/Images/youtube.png')
+image= Image.open('/Users/harshavarthanan/Downloads/Excel_Webapp/youtube.png')
 st.image(image, use_column_width=True)
 
 
 st.header('Youtube Comment Filter - Avatar 2 Trailer')
 
-image= Image.open('/Users/harshavarthanan/Downloads/Excel_Webapp/Images/avatar-2-the-way-of-water.jpg')
+image= Image.open('/Users/harshavarthanan/Downloads/Excel_Webapp/avatar-2-the-way-of-water.jpg')
 st.image(image, use_column_width=True)
 st.subheader('Filter by Topics & Sentiment')
 
